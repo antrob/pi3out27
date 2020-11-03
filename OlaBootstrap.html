@@ -50,8 +50,9 @@
     <!--Arthur-->
     <!-- Botão para acionar modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
-        Modal de demonstração
+        Abrir modal de demonstração
     </button>
+    
     <!-- Modal -->
     <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -64,11 +65,17 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    What's up?
+                    <h5>Popover em um modal</h5>
+                    <p>Este <a href="#" role="button" class="btn btn-secondary popover-test" title="Título do popover"
+                            data-content="O conteúdo do popover é definido aqui.">botão</a> aciona um popover, ao clicar nele.</p>
+                    <hr>
+                    <h5>Tooltips em um modal</h5>
+                    <p><a href="#" class="tooltip-test" title="Tooltip">Exste link</a> e <a href="#" class="tooltip-test"
+                            title="Tooltip">este outro</a> mostra tooltips, quando passamos o mouse sobre eles.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    <!-- <button type="button" class="btn btn-primary">Salvar mudanças</button> -->
+                    <button type="button" class="btn btn-primary">Salvar mudanças</button>
                 </div>
             </div>
         </div>
